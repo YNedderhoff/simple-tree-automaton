@@ -15,10 +15,10 @@ The startsymbols file lists the startsymbols per line. The grammar is stored in 
 
 For details see the example files "startsymbols.txt" and "productions.txt"
 
-As input, you write a string composed of nodes, opening/closing brackets and commas:
+As input, you write a tree as a string composed of nodes, opening/closing brackets and commas:
 
 * A
 * A(a,B(b,c))
 * A(B(a,b),C(D(d,e)))
 
-As output you'll get True if the Tree is in the Grammar, or False, if not.
+As output you'll get _True_ if the automaton accepts the tree given the start symbols and the productions, or _False_, if not.
