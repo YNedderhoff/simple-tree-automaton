@@ -1,6 +1,8 @@
 # simple-tree-automaton
 A simple tree automaton
 
+[![Code Issues](http://www.quantifiedcode.com/api/v1/project/8710eecb3a4440e6885983c255266775/badge.svg)](http://www.quantifiedcode.com/app/project/8710eecb3a4440e6885983c255266775)
+
 How to run program?
 
 ```
