@@ -318,7 +318,7 @@ def normal_form(n, P):
     return normal_n, normal_p
 
 
-def run(s):
+def run(in_string):
     arg_par = argparse.ArgumentParser(description='')
 
     arg_par.add_argument('-s', '--startsymbols', dest='starts', help='startsymbols', required=True)
@@ -331,8 +331,8 @@ def run(s):
 
     t_a = TreeAutomaton(n_n, e, q, s, p_n)
 
-    print "Input string:\n\t" + str(s)
-    commands = parse_input(s)
+    print "Input string:\n\t" + str(in_string)
+    commands = parse_input(in_string)
     print "Tree string:\n\t" + str(commands[0])
 
     # This block checks if the input string is correctly formatted.
@@ -365,3 +365,4 @@ for t in treestringlist:
 # treestring = "A(A(b,a),b)"
 treestring = raw_input("Input string in defined format:\n")
 run(treestring)
+
